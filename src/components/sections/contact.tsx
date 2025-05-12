@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Phone, Mail, Linkedin, Github, Code as LeetcodeIcon, FileText, MapPin } from 'lucide-react';
-import { ContactForm } from '@/components/contact-form';
 import { Button } from '../ui/button';
 
 const contactDetails = [
@@ -25,10 +24,10 @@ export default function ContactSection() {
           <p className="text-lg text-muted-foreground mt-2">I'm always open to discussing new projects, creative ideas, or opportunities.</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          <Card className="shadow-xl">
+        <div className="grid grid-cols-1 gap-12">
+          <Card className="shadow-xl max-w-2xl mx-auto w-full">
             <CardHeader>
-              <CardTitle className="text-2xl">Contact Information</CardTitle>
+              <CardTitle className="text-2xl text-center md:text-left">Contact Information</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               {contactDetails.map((item, index) => (
@@ -64,15 +63,6 @@ export default function ContactSection() {
                     </Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-xl">
-            <CardHeader>
-              <CardTitle className="text-2xl">Send Me a Message</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ContactForm />
             </CardContent>
           </Card>
         </div>
