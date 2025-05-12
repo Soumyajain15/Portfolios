@@ -1,4 +1,10 @@
 import type { LucideIcon } from 'lucide-react';
+import type React from 'react';
+
+export interface TechIcon {
+  name: string;
+  icon: LucideIcon | React.FC<React.SVGProps<SVGSVGElement>>;
+}
 
 export interface Project {
   id: string;
@@ -8,6 +14,7 @@ export interface Project {
   imageUrl?: string;
   tags?: string[];
   dataAiHint?: string;
+  techIcons?: TechIcon[];
 }
 
 export interface ExperienceItem {
