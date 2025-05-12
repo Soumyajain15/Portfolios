@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
@@ -11,19 +11,26 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
+const poppins = Poppins({
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  weight: ['300', '400', '500', '600', '700'],
+});
+
+
 export const metadata: Metadata = {
-  title: 'Soumya Jain | Frontend & RPA Developer',
-  description: 'Portfolio of Soumya Jain, a Frontend Developer and RPA enthusiast, showcasing skills, projects, and experience.',
-  keywords: ['Soumya Jain', 'Frontend Developer', 'RPA Developer', 'Portfolio', 'ReactJS', 'UiPath', 'Web Developer'],
+  title: 'Soumya Jain | Full Stack & RPA Developer',
+  description: 'Portfolio of Soumya Jain, a Full Stack Developer and RPA enthusiast, showcasing skills, projects, and experience.',
+  keywords: ['Soumya Jain', 'Full Stack Developer', 'RPA Developer', 'Portfolio', 'ReactJS', 'Node.js', 'UiPath', 'Web Developer'],
   authors: [{ name: 'Soumya Jain' }],
   openGraph: {
-    title: 'Soumya Jain | Frontend & RPA Developer',
+    title: 'Soumya Jain | Full Stack & RPA Developer',
     description: 'Crafting digital experiences and automation solutions.',
     url: 'https://your-domain.com', // Replace with actual domain
     siteName: 'Soumya Jain Portfolio',
     images: [
       {
-        url: 'https://picsum.photos/seed/soumya-og/1200/630', // Replace with a relevant OG image
+        url: 'https://picsum.photos/seed/soumya-og/1200/630', 
         width: 1200,
         height: 630,
         alt: 'Soumya Jain Portfolio',
@@ -34,10 +41,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Soumya Jain | Frontend & RPA Developer',
+    title: 'Soumya Jain | Full Stack & RPA Developer',
     description: 'Crafting digital experiences and automation solutions.',
     // creator: '@yourtwitterhandle', // Replace with actual Twitter handle
-    images: ['https://picsum.photos/seed/soumya-og/1200/630'], // Replace
+    images: ['https://picsum.photos/seed/soumya-og/1200/630'], 
   },
   icons: {
     // icon: '/favicon.ico', // Add your favicon here
@@ -53,7 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -71,3 +78,4 @@ export default function RootLayout({
     </html>
   );
 }
+

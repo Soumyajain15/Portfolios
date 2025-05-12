@@ -12,7 +12,7 @@ export default function HeroSection() {
           <div className="text-center md:text-left"> {/* Removed order classes */}
             <span className="text-primary font-semibold uppercase tracking-wider">Soumya Jain</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-4 leading-tight">
-              Frontend Developer <span className="text-primary">|</span> RPA Developer
+              Full Stack Developer <span className="text-primary">|</span> RPA Developer
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto md:mx-0">
               Crafting digital experiences and automation solutions.
@@ -30,9 +30,9 @@ export default function HeroSection() {
               </Button>
             </div>
           </div>
-          {/* Removed image section */}
         </div>
       </div>
     </section>
   );
 }
+
