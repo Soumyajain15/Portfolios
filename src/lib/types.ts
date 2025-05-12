@@ -51,3 +51,17 @@ export interface ServiceItem {
   title: string;
   icon?: LucideIcon;
 }
+
+export interface ClubActivityItem {
+  id: string;
+  clubName: string;
+  icon?: LucideIcon | React.FC<React.SVGProps<SVGSVGElement>>; // Optional icon for the club
+  roles: ClubRole[];
+  description?: string; // Optional overall description for the club involvement
+}
+
+export interface ClubRole {
+  role: string;
+  duration: string;
+  details?: string[]; // Optional specific details or achievements for this role
+}

@@ -6,6 +6,7 @@ import ExperienceSection from '@/components/sections/experience';
 import AchievementsSection from '@/components/sections/achievements';
 import TestimonialsSection from '@/components/sections/testimonials';
 import ContactSection from '@/components/sections/contact';
+import ClubActivitiesSection from '@/components/sections/club-activities';
 import { Separator } from '@/components/ui/separator';
 
 export default function HomePage() {
@@ -16,11 +17,13 @@ export default function HomePage() {
       <Separator className="my-0" />
       <ProjectsSection />
       <Separator className="my-0" />
-      <ServicesSection />
-      <Separator className="my-0" />
       <ExperienceSection />
       <Separator className="my-0" />
+      <ClubActivitiesSection />
+      <Separator className="my-0" />
       <AchievementsSection />
+      <Separator className="my-0" />
+      <ServicesSection />
       <Separator className="my-0" />
       <TestimonialsSection />
       <Separator className="my-0" />

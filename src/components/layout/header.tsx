@@ -8,6 +8,9 @@ const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Clubs', href: '#clubs' },
+  { label: 'Achievements', href: '#achievements' },
+  { label: 'Services', href: '#services' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -19,7 +22,7 @@ export default function SiteHeader() {
           <CodeXml className="h-6 w-6 text-primary" />
           <span className="font-bold sm:inline-block">Soumya Jain</span>
         </Link>
-        <nav className="hidden flex-1 gap-6 md:flex">
+        <nav className="hidden flex-1 gap-4 md:flex"> {/* Reduced gap for more items */}
           {navItems.map((item) => (
             <Link
               key={item.label}
