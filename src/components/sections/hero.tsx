@@ -32,7 +32,7 @@ export default function HeroSection() {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-primary/50">
               <Image
-                src="https://picsum.photos/seed/soumyajain/400/400"
+                src="https://picsum.photos/seed/dynamicprofile24/400/400"
                 alt="Soumya Jain - Profile Picture"
                 data-ai-hint="professional portrait"
                 width={400}
