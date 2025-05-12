@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ExternalLink, FileText, Brain, Code2, Palette, FileJson2, ServerCog, Cable, Database, DatabaseZap, Bot, Router as CiscoIcon } from 'lucide-react'; // Using Router for Cisco
+import { ExternalLink, FileText, Brain, Code2, Palette, FileJson2, ServerCog, Cable, Database, DatabaseZap, Bot, Router as CiscoIcon, ListChecks } from 'lucide-react'; // Using Router for Cisco
 import type { SkillItem } from '@/lib/types';
 
 const skills: SkillItem[] = [
@@ -17,6 +17,9 @@ const skills: SkillItem[] = [
   { id: 'uipath', name: 'UiPath (RPA)', category: 'Others', icon: Bot },
   { id: 'dbms', name: 'DBMS', category: 'Others', icon: Database },
   { id: 'cisco', name: 'Cisco Packet Tracer', category: 'Others', icon: CiscoIcon },
+  { id: 'c-lang', name: 'C', category: 'Others', icon: Code2 },
+  { id: 'cpp-lang', name: 'C++', category: 'Others', icon: Code2 },
+  { id: 'dsa', name: 'DSA', category: 'Others', icon: Brain },
 ];
 
 const skillCategories = ['Frontend', 'Backend', 'Database', 'Others'] as const;
