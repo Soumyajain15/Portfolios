@@ -8,8 +8,8 @@ export default function HeroSection() {
   return (
     <section id="hero" className="bg-background text-foreground py-20 md:py-32">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1 text-center md:text-left">
+        <div className="grid md:grid-cols-1 gap-12 items-center"> {/* Changed to md:grid-cols-1 for single column layout */}
+          <div className="text-center md:text-left"> {/* Removed order classes */}
             <span className="text-primary font-semibold uppercase tracking-wider">Soumya Jain</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-4 leading-tight">
               Frontend Developer <span className="text-primary">|</span> RPA Developer
@@ -30,19 +30,7 @@ export default function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="order-1 md:order-2 flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-primary/50">
-              <Image
-                src="/profile-image.png" 
-                alt="Soumya Jain - Profile Picture"
-                data-ai-hint="profile picture"
-                width={400}
-                height={400}
-                className="object-cover w-full h-full"
-                priority
-              />
-            </div>
-          </div>
+          {/* Removed image section */}
         </div>
       </div>
     </section>
