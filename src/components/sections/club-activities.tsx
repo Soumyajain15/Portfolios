@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Users, Zap, Award } from 'lucide-react'; // Example icons
+import { Users, Zap, Award, Star } from 'lucide-react'; // Example icons, added Star for Teachnook
 import type { ClubActivityItem } from '@/lib/types';
 
 const clubActivitiesData: ClubActivityItem[] = [
@@ -43,6 +43,23 @@ const clubActivitiesData: ClubActivityItem[] = [
           'Actively participated in organizing technical workshops, seminars, and coding competitions.',
           'Contributed to event management and outreach activities.',
           'Collaborated with fellow members on club initiatives and projects.'
+        ],
+      },
+    ],
+  },
+  {
+    id: 'teachnook-ambassador',
+    clubName: 'Teachnook',
+    icon: Star, 
+    description: 'Represented Teachnook as a Campus Ambassador, promoting their educational programs and initiatives.',
+    roles: [
+      {
+        role: 'Campus Ambassador',
+        duration: '2 Months',
+        details: [
+          'Promoted Teachnook\'s courses and workshops within the campus.',
+          'Facilitated communication between students and Teachnook representatives.',
+          'Assisted in organizing informational sessions and webinars.'
         ],
       },
     ],
