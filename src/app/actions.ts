@@ -41,7 +41,8 @@ export async function submitContactForm(
   console.log("SIMULATED EMAIL SUBMISSION:");
   console.log("Received contact form data:", validationResult.data);
   console.log("To implement actual email sending, you need to integrate an email service provider in this server action.");
-  console.log(`An email would typically be sent to the portfolio owner (e.g., soumyaj470@gmail.com) with the following details:`);
+  // Updated the log to specifically mention the user's email address as the intended recipient.
+  console.log(`An email would typically be sent to the portfolio owner (soumyaj470@gmail.com) with the following details:`);
   console.log(`  From: ${validationResult.data.name} <${validationResult.data.email}>`);
   console.log(`  Message: ${validationResult.data.message}`);
   
@@ -57,3 +58,4 @@ export async function submitContactForm(
   console.log("Simulated email submission: Success.");
   return { success: true };
 }
+
