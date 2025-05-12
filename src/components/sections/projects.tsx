@@ -33,7 +33,7 @@ const projectsData: Project[] = [
     title: 'SafeVoice – Speak Without Fear',
     description: 'Voice-based anonymous complaint system to promote secure reporting.',
     githubLink: 'https://github.com/Soumyajain15/safe',
-    imageUrl: '/images/portfolio/soumya-jain-project-safevoice.webp',
+    imageUrl: 'https://picsum.photos/600/400?random=1',
     tags: ['Web Development', 'Anonymity', 'Voice Recognition'],
     dataAiHint: 'secure communication',
     techIcons: [
@@ -46,7 +46,7 @@ const projectsData: Project[] = [
     title: 'EduHub – Online Learning Platform',
     description: 'A modern UI course & certification platform for online education.',
     githubLink: 'https://github.com/Soumyajain15/EduHub',
-    imageUrl: '/images/portfolio/soumya-jain-project-eduhub.webp',
+    imageUrl: 'https://picsum.photos/600/400?random=2',
     tags: ['React', 'Node.js', 'MySQL', 'E-learning'],
     dataAiHint: 'online learning',
     techIcons: [
@@ -60,7 +60,7 @@ const projectsData: Project[] = [
     title: 'RGPV Result Automation Bot (UiPath)',
     description: 'Automates SGPA calculation from the RGPV university website using UiPath.',
     githubLink: 'https://github.com/Soumyajain15/Rgpv-result-Sgpa-Calculator-bot-in-UIpath',
-    imageUrl: '/images/portfolio/soumya-jain-project-rgpvbot.webp',
+    imageUrl: 'https://picsum.photos/600/400?random=3',
     tags: ['RPA', 'UiPath', 'Automation', 'Education Tech'],
     dataAiHint: 'data automation',
     techIcons: [
@@ -73,7 +73,7 @@ const projectsData: Project[] = [
     title: 'Campus Network & Cybersecurity Design (Cisco)',
     description: 'Network simulation for a campus using VLANs, routing, and subnetting in Cisco Packet Tracer.',
     githubLink: 'https://github.com/Soumyajain15/Campus-Network-Cybersecurity',
-    imageUrl: '/images/portfolio/soumya-jain-project-campusnetwork.webp',
+    imageUrl: 'https://picsum.photos/600/400?random=4',
     tags: ['Networking', 'Cybersecurity', 'Cisco', 'Simulation'],
     dataAiHint: 'network security',
     techIcons: [
@@ -87,7 +87,7 @@ const projectsData: Project[] = [
     title: 'TechClubs Portal (Moonhack)',
     description: 'A portal to manage tech clubs, events, and registrations for campus activities.',
     githubLink: 'https://github.com/Soumyajain15/Techno-Club-Portal-Moonhack',
-    imageUrl: '/images/portfolio/soumya-jain-project-techclubs.webp',
+    imageUrl: 'https://picsum.photos/600/400?random=5',
     tags: ['Web Development', 'Event Management', 'Community'],
     dataAiHint: 'community portal',
     techIcons: [
