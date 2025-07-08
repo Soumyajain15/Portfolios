@@ -58,7 +58,7 @@ export default function ContactSection() {
 
               <div className="pt-4 border-t">
                  <Button asChild size="lg" className="w-full shadow-md hover:shadow-primary/40 transition-shadow mt-4">
-                    <Link href="https://drive.google.com/file/d/15lyuEXnL7ImvHS9JHFriUtqTlRCSHIru/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://drive.google.com/file/d/13vPQRD8pyKmd0lypOfp1Kmj9-GqnRt0W/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                     <FileText className="mr-2 h-5 w-5" /> View My Resume
                     </Link>
                 </Button>
