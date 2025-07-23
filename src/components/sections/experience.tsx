@@ -4,19 +4,20 @@ import type { ExperienceItem } from '@/lib/types';
 
 const experienceData: ExperienceItem[] = [
   {
-    id: 'cybersecurity-intern',
-    role: 'Cybersecurity Intern',
-    company: 'Virtual Internship Program',
-    period: 'May – July 2024',
-    description: 'Gained hands-on experience in system protection, threat analysis, and secure networking practices. Developed foundational skills in identifying vulnerabilities and implementing security measures.',
+    id: 'frontend-intern-infosys',
+    role: 'Software Developer Intern',
+    company: 'Infosys',
+    period: 'May – Oct 2024',
+    description: 'Contributed to the development of the EduHub platform. Utilized React for frontend development, Node.js for backend services, and MySQL for database management. Focused on creating responsive and user-friendly interfaces. Github- https://github.com/Soumyajain15/EduHub?embedded=0',
   },
   {
-    id: 'frontend-intern-infosys',
-    role: 'Frontend Developer Intern',
-    company: 'Infosys',
-    period: 'May – July 2024',
-    description: 'Contributed to the development of the EduHub platform. Utilized React for frontend development, Node.js for backend services, and MySQL for database management. Focused on creating responsive and user-friendly interfaces.',
+    id: 'cybersecurity-intern',
+    role: 'Cybersecurity Intern',
+    company: 'Cisco',
+    period: 'Aug – Dec 2024',
+    description: 'Gained hands-on experience in system protection, threat analysis, and secure networking practices. Developed foundational skills in identifying vulnerabilities and implementing security measures. Github-https://github.com/Soumyajain15/Campus-Network-Cybersecurity?embedded=0',
   },
+ 
 ];
 
 export default function ExperienceSection() {

@@ -5,7 +5,7 @@ import type { ClubActivityItem } from '@/lib/types';
 
 const clubActivitiesData: ClubActivityItem[] = [
   {
-    id: 'uipath-community',
+    id: 'Uipath-Community',
     clubName: 'UiPath Community',
     icon: Zap, // Example icon for UiPath
     description: 'Actively contributed to the UiPath Community, fostering learning and development in Robotic Process Automation.',
@@ -31,13 +31,13 @@ const clubActivitiesData: ClubActivityItem[] = [
     ],
   },
   {
-    id: 'csi-club',
+    id: 'Csi-Club',
     clubName: 'Computer Society of India (CSI) - Student Chapter',
     icon: Users, // Example icon for CSI
     description: 'Engaged in various technical and professional development activities organized by the CSI student chapter.',
     roles: [
       {
-        role: 'Executive Member',
+        role: 'Software Developer',
         duration: '2 Years',
         details: [
           'Actively participated in organizing technical workshops, seminars, and coding competitions.',
@@ -48,7 +48,7 @@ const clubActivitiesData: ClubActivityItem[] = [
     ],
   },
   {
-    id: 'teachnook-ambassador',
+    id: 'Teachnook-ambassador',
     clubName: 'Teachnook',
     icon: Star, 
     description: 'Represented Teachnook as a Campus Ambassador, promoting their educational programs and initiatives.',

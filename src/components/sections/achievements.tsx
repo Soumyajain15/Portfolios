@@ -5,11 +5,13 @@ import { Badge } from '@/components/ui/badge';
 
 const achievementsData: AchievementItem[] = [
   { id: 'rpa-hackathon', title: 'Runner-Up – RPA Hackathon (Hack-a-Bot)', icon: Award, issuer: 'Hackathon' },
-  { id: 'rpa-foundation', title: 'Certified in RPA Developer Foundation', icon: CheckCircle, issuer: 'UiPath (assumed)' },
+  { id: 'rpa-foundation', title: 'Certified in RPA Developer Foundation', icon: CheckCircle, issuer: 'UiPath' },
   { id: 'oci-foundation', title: 'Certified in Oracle Cloud Infrastructure Foundation', icon: Cloud, issuer: 'Oracle' },
   { id: 'nptel-c', title: 'NPTEL Certified in C Language', icon: CprogIcon, issuer: 'NPTEL' },
+  { id: 'C++', title: 'Certified in C++ OOPs', icon: CheckCircle, issuer: 'Udemy' },
   { id: 'reactjs-infosys', title: 'Certified in ReactJS', icon: CheckCircle, issuer: 'Infosys Springboard' },
   { id: 'javascript-infosys', title: 'Certified in JavaScript', icon: CheckCircle, issuer: 'Infosys Springboard' },
+  { id: 'Sql', title: 'Certified in SQL', icon: CheckCircle, issuer: 'Hackerank' },
 ];
 
 export default function AchievementsSection() {

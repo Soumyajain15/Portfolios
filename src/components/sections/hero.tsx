@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-1 gap-12 items-center">
           <div className="text-center">
-            <span className="text-primary font-semibold uppercase tracking-wider">Soumya Jain</span>
+            <span className="text-xl text-primary font-semibold uppercase tracking-wider">Soumya Jain</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-4 leading-tight">
               Full Stack Developer <span className="text-primary">|</span> RPA Developer
             </h1>
