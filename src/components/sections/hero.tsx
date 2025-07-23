@@ -8,8 +8,8 @@ export default function HeroSection() {
   return (
     <section id="hero" className="bg-background text-foreground py-20 md:py-32">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-1 gap-12 items-center"> {/* Changed to md:grid-cols-1 for single column layout */}
-          <div className="text-center md:text-left"> {/* Removed order classes */}
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="text-center md:text-left">
             <span className="text-primary font-semibold uppercase tracking-wider">Soumya Jain</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-4 leading-tight">
               Full Stack Developer <span className="text-primary">|</span> RPA Developer
@@ -30,9 +30,20 @@ export default function HeroSection() {
               </Button>
             </div>
           </div>
+          <div className="relative w-full max-w-sm mx-auto md:max-w-none">
+            <div className="relative aspect-square">
+              <Image
+                src="https://placehold.co/400x400.png"
+                alt="Soumya Jain"
+                fill
+                className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
+                data-ai-hint="woman portrait"
+                priority
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
   );
 }
-
