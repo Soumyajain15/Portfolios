@@ -37,7 +37,7 @@ const projectsData: Project[] = [
     title: 'Job Portal',
     description: 'A comprehensive platform for job seekers and employers to connect, featuring job listings, applications, and user profiles.',
     githubLink: 'https://github.com/Soumyajain15/Jobportal',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/jobportal/600/400',
     tags: ['Web Development', 'React', 'Job Board'],
     dataAiHint: 'job search',
     techIcons: [
@@ -50,7 +50,7 @@ const projectsData: Project[] = [
     title: 'Proxima - AI Content Generator',
     description: 'An AI-powered application to generate various types of content, including text and images, using generative models.',
     githubLink: 'https://github.com/Soumyajain15/proximas',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/ai-content/600/400',
     tags: ['AI', 'Content Generation', 'Web App'],
     dataAiHint: 'artificial intelligence',
     techIcons: [
@@ -63,7 +63,7 @@ const projectsData: Project[] = [
     title: 'SpeekFree – Speak Without Fear',
     description: 'Voice-based anonymous complaint system to promote secure and fearless reporting, ensuring user privacy.',
     githubLink: 'https://github.com/Soumyajain15/SpeekFree-Speak-Without-Fear',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/anonymous-voice/600/400',
     tags: ['Web Development', 'Anonymity', 'Voice Recognition'],
     dataAiHint: 'secure communication',
     techIcons: [
@@ -76,7 +76,7 @@ const projectsData: Project[] = [
     title: 'EduHub – Online Learning Platform',
     description: 'A modern UI course & certification platform for online education.',
     githubLink: 'https://github.com/Soumyajain15/EduHub',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/eduhub/600/400',
     tags: ['React', 'Node.js', 'MySQL', 'E-learning'],
     dataAiHint: 'online learning',
     techIcons: [
@@ -90,7 +90,7 @@ const projectsData: Project[] = [
     title: 'RGPV Result Automation Bot (UiPath)',
     description: 'Automates SGPA calculation from the RGPV university website using UiPath.',
     githubLink: 'https://github.com/Soumyajain15/Rgpv-result-Sgpa-Calculator-bot-in-UIpath',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/automation-bot/600/400',
     tags: ['RPA', 'UiPath', 'Automation', 'Education Tech'],
     dataAiHint: 'data automation',
     techIcons: [
@@ -103,7 +103,7 @@ const projectsData: Project[] = [
     title: 'Campus Network & Cybersecurity Design (Cisco)',
     description: 'Network simulation for a campus using VLANs, routing, and subnetting in Cisco Packet Tracer.',
     githubLink: 'https://github.com/Soumyajain15/Campus-Network-Cybersecurity',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/network-design/600/400',
     tags: ['Networking', 'Cybersecurity', 'Cisco', 'Simulation'],
     dataAiHint: 'network security',
     techIcons: [
@@ -117,7 +117,7 @@ const projectsData: Project[] = [
     title: 'TechClubs Portal (Moonhack)',
     description: 'A portal to manage tech clubs, events, and registrations for campus activities.',
     githubLink: 'https://github.com/Soumyajain15/Techno-Club-Portal-Moonhack',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://picsum.photos/seed/tech-club/600/400',
     tags: ['Web Development', 'Event Management', 'Community'],
     dataAiHint: 'community portal',
     techIcons: [
