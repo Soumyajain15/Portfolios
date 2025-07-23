@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -75,7 +76,7 @@ const projectsData: Project[] = [
     title: 'EduHub – Online Learning Platform',
     description: 'A modern UI course & certification platform for online education.',
     githubLink: 'https://github.com/Soumyajain15/EduHub',
-    imageUrl: 'https://picsum.photos/600/400?random=2',
+    imageUrl: 'https://placehold.co/600x400.png',
     tags: ['React', 'Node.js', 'MySQL', 'E-learning'],
     dataAiHint: 'online learning',
     techIcons: [
@@ -89,7 +90,7 @@ const projectsData: Project[] = [
     title: 'RGPV Result Automation Bot (UiPath)',
     description: 'Automates SGPA calculation from the RGPV university website using UiPath.',
     githubLink: 'https://github.com/Soumyajain15/Rgpv-result-Sgpa-Calculator-bot-in-UIpath',
-    imageUrl: 'https://picsum.photos/600/400?random=3',
+    imageUrl: 'https://placehold.co/600x400.png',
     tags: ['RPA', 'UiPath', 'Automation', 'Education Tech'],
     dataAiHint: 'data automation',
     techIcons: [
@@ -102,7 +103,7 @@ const projectsData: Project[] = [
     title: 'Campus Network & Cybersecurity Design (Cisco)',
     description: 'Network simulation for a campus using VLANs, routing, and subnetting in Cisco Packet Tracer.',
     githubLink: 'https://github.com/Soumyajain15/Campus-Network-Cybersecurity',
-    imageUrl: 'https://picsum.photos/600/400?random=4',
+    imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Networking', 'Cybersecurity', 'Cisco', 'Simulation'],
     dataAiHint: 'network security',
     techIcons: [
@@ -116,7 +117,7 @@ const projectsData: Project[] = [
     title: 'TechClubs Portal (Moonhack)',
     description: 'A portal to manage tech clubs, events, and registrations for campus activities.',
     githubLink: 'https://github.com/Soumyajain15/Techno-Club-Portal-Moonhack',
-    imageUrl: 'https://picsum.photos/600/400?random=5',
+    imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Web Development', 'Event Management', 'Community'],
     dataAiHint: 'community portal',
     techIcons: [
