@@ -14,6 +14,9 @@ import {
   Network,
   Shield,
   Users,
+  Search,
+  Briefcase,
+  Eye,
   Router as RouterIcon // Aliasing to avoid conflict with Next.js Router
 } from 'lucide-react';
 import type { Project } from '@/lib/types';
@@ -28,17 +31,43 @@ const ReactIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 const projectsData: Project[] = [
+    {
+    id: 'jobportal',
+    title: 'Job Portal',
+    description: 'A comprehensive platform for job seekers and employers to connect, featuring job listings, applications, and user profiles.',
+    githubLink: 'https://github.com/Soumyajain15/Jobportal',
+    imageUrl: 'https://placehold.co/600x400.png',
+    tags: ['Web Development', 'React', 'Job Board'],
+    dataAiHint: 'job search',
+    techIcons: [
+      { name: 'React', icon: ReactIcon },
+      { name: 'Job Search', icon: Briefcase },
+    ],
+  },
   {
-    id: 'safevoice',
-    title: 'SafeVoice – Speak Without Fear',
-    description: 'Voice-based anonymous complaint system to promote secure reporting.',
-    githubLink: 'https://github.com/Soumyajain15/safe',
-    imageUrl: 'https://picsum.photos/600/400?random=1',
+    id: 'proxima',
+    title: 'Proxima - AI Content Generator',
+    description: 'An AI-powered application to generate various types of content, including text and images, using generative models.',
+    githubLink: 'https://github.com/Soumyajain15/proximas',
+    imageUrl: 'https://placehold.co/600x400.png',
+    tags: ['AI', 'Content Generation', 'Web App'],
+    dataAiHint: 'artificial intelligence',
+    techIcons: [
+      { name: 'AI', icon: Bot },
+      { name: 'React', icon: ReactIcon },
+    ],
+  },
+    {
+    id: 'speekfree',
+    title: 'SpeekFree – Speak Without Fear',
+    description: 'Voice-based anonymous complaint system to promote secure and fearless reporting, ensuring user privacy.',
+    githubLink: 'https://github.com/Soumyajain15/SpeekFree-Speak-Without-Fear',
+    imageUrl: 'https://placehold.co/600x400.png',
     tags: ['Web Development', 'Anonymity', 'Voice Recognition'],
     dataAiHint: 'secure communication',
     techIcons: [
-      { name: 'Web Platform', icon: Globe },
       { name: 'Voice Input', icon: Mic },
+      { name: 'Anonymity', icon: Eye },
     ],
   },
   {
