@@ -1,9 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code, Brush, DatabaseZap, Bot, ShieldCheck } from 'lucide-react';
+import { Code, Brush, DatabaseZap, Bot, ShieldCheck, Server } from 'lucide-react';
 import type { ServiceItem } from '@/lib/types';
 
 const servicesData: ServiceItem[] = [
   { id: 'frontend', title: 'Frontend Web Development', icon: Code },
+  { id: 'backend', title: 'Backend Development', icon: Server },
   { id: 'uiux', title: 'UI/UX Design', icon: Brush },
   { id: 'db', title: 'Database Management (MySQL, MongoDB)', icon: DatabaseZap },
   { id: 'rpa', title: 'Robotic Process Automation (UiPath)', icon: Bot },
