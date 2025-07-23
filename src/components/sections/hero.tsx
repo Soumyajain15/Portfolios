@@ -33,7 +33,7 @@ export default function HeroSection() {
           <div className="relative w-full max-w-sm mx-auto md:max-w-none">
             <div className="relative aspect-square">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="https://picsum.photos/seed/profile-pic/400/400"
                 alt="Soumya Jain"
                 fill
                 className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
